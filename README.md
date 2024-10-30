@@ -1,29 +1,32 @@
-Orientações para o projeto da disciplina de DataOps
-Abaixo estão as orientações para elaboração do projeto da disciplina de DataOps
+Nome da equipe: Rocket
+Endereço do repositório do projeto: colocar link
+Tema do Projeto: Supermarket Sales
+Fonte de Dados selecionada (informar formato dos dados: CVS, JSON, XML, SQL, noSQL...):  colocar link
+Contextualização e problema a ser resolvido: Consultoria externa para Análise de vendas e oportunidades de crescimento
+Objetivo: Aumentar a venda de produtos das filiais
+Visualizações que pretendem ser geradas: Top 5 Filiais, Cidade, Top 10 clientes, Top 10 categorias, Media de valores
+Bibliotecas e Frameworks que devem ser utilizados:  preencher
+Benefícios a serem gerados com a solução: preencher
 
-Formação de equipes
-Equipes de 3 a 4 pessoas.
-É recomendado a formação de equipes que todos posssa contribuir positivamente no projeto com os diferentes conhecimentos.
-Deve ser criado um repositório GitHub (preferencialmente privado, inclunido o professor como membro da equipe para visualização) no qual todos os membros do projeto devem atuar como colaboradores.
-Todos os membros da equipe deverão contribuir com o projeto no GitHub de acordo com as tarefas planejadas no Plano de Trabalho.
-Elaboração do escopo do projeto
-A elaboração do projeto deve contemplar os seguintes itens:
-
-Nome da equipe
-Endereço do repositório do projeto
-Tema do Projeto
-Fonte de Dados selecionada (informar formato dos dados: CVS, JSON, XML, SQL, noSQL...)
-Contextualização e problema a ser resolvido
-Objetivo
-Visualizações que pretendem ser geradas
-Bibliotecas e Frameworks que devem ser utilizados
-Benefícios a serem gerados com a solução
 Plano de Trabalho
 O plano de trabalho será organizado baseado três sprits de desenvolvimento:
 
-Sprint 1: Entre a Aula 5 e a Aula 6
-Sprint 2: Entre a Aula 6 e a Aula 7
-Sprint 3: Entre a Aula 7 e a Aula 8
+Sprint 1 (30/10 a 06/11): 
+1- Criar repositorio- Aline 
+2- Download DataSet- Dani 
+3- Subir dataset no repositorio 
+4- Configuração Streamlit
+5- Inicio desenvolvimento
+
+Sprint 2 (07/11 a 13/11):
+1- Desenvolvimento
+
+
+Sprint 3 (14/11 a 20/11): 
+1- Ajustes Finais
+2- Documentação
+3- Apresentação final
+
 Referente ao cadastro das tarefas:
 
 Para cada Sprint, deve ser estimadas atividades do projeto distribuídas entre todos os participantes do grupo.
