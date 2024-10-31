@@ -1,15 +1,15 @@
-Nome da equipe: Rocket
+** Nome da equipe: Rocket
 Endereço do repositório do projeto: colocar link
 Tema do Projeto: Supermarket Sales
 Fonte de Dados selecionada (informar formato dos dados: CVS, JSON, XML, SQL, noSQL...):  colocar link
 Contextualização e problema a ser resolvido: Consultoria externa para Análise de vendas e oportunidades de crescimento
-Objetivo: Aumentar a venda de produtos das filiais
-Visualizações que pretendem ser geradas: Top 5 Filiais, Cidade, Top 10 clientes, Top 10 categorias, Media de valores
-Bibliotecas e Frameworks que devem ser utilizados:  preencher
+Objetivo: Aumentar a venda de produtos nas filiais
+** Visualizações que pretendem ser geradas: Top 5 Filiais valor de venda, Top Cidades, Top 10 clientes, Top 10 categorias, Media de valores dos produtos
+Bibliotecas e Frameworks que devem ser utilizados: streamlit, pandas
 Benefícios a serem gerados com a solução: preencher
+PDoc= biblioteca para gerar documentação automatica em pyton do projeto inteiro e colocar no github pages
 
-Plano de Trabalho
-O plano de trabalho será organizado baseado três sprits de desenvolvimento:
+** Plano de Trabalho **
 
 Sprint 1 (30/10 a 06/11): 
 1- Criar repositorio- Aline 
@@ -20,7 +20,6 @@ Sprint 1 (30/10 a 06/11):
 
 Sprint 2 (07/11 a 13/11):
 1- Desenvolvimento
-
 
 Sprint 3 (14/11 a 20/11): 
 1- Ajustes Finais
