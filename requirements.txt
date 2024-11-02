@@ -9,3 +9,8 @@ more_itertools
 datetime
 openpyxl
 streamlit
+pdoc3
+altair
+numpy
+jupyter
+
