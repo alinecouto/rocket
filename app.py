@@ -83,38 +83,37 @@ def top_5_cidades_vendas(data):
     st.altair_chart(chart, use_container_width=True)
 
 
+def mostrar_vendas_por_genero(data):
+   
+    # Convertendo os gêneros para minúsculas
+    data['Gender'] = data['Gender'].str.lower()
 
+    # Garantindo que 'Total' é numérico e corrigindo formato com replace
+    data['Total'] = data['Total'].str.replace('.', '', regex=False).str.replace(',', '.', regex=False).astype(float)
+    data['Total'] = pd.to_numeric(data['Total'], errors='coerce')
+    #data['Total'] = data['Total'].apply(lambda x: f'R$ {x:,.2f}')
+    # Gerando dataset de agrupamento de gênero com a soma das vendas
+    gender_sales = data.groupby('Gender')['Total'].sum().reset_index()
 
+    # Definindo as cores
+    color_map = alt.Scale(domain=['male', 'female'],
+                          range=['blue', 'red'])
 
-# # def exibir_tabela_dados(data):
-# #     """
-# #         Exibe a table CSV carregada
+    # Gráfico do total de vendas por gênero usando Altair
+    st.divider()
+    st.subheader("Total de Vendas por Gênero")
 
-# #         Parâmetros:
-# #             data: DataFrame referente ao CSV carregado
+    chart = alt.Chart(gender_sales).mark_bar().encode(
+        x='Gender',
+        y=alt.Y('Total'),
+        color=alt.condition(
+            alt.datum.Gender == 'male',  # Se gênero for 'male'
+            alt.value('blue'),            # Cor azul
+            alt.value('red')              # Senão, vermelho
+        )
+    ).properties()
 
-# #     """
-
-# #     st.subheader("Dados de origem")
-# #     st.dataframe(data)
-
-# def exibir_grafico_pessoas_genero(data):
-#     """
-#         Exibe o gráfico de pessoas por gênero
-
-#         Parâmetros:
-#             data: DataFrame referente ao CSV carregado
-
-#     """
-
-#     #gerando dataset de agrupamento de genero
-#     gender_counts = data['gender'].value_counts().rename_axis('gender').reset_index(name='counts')
-#     gender_counts.set_index('gender', inplace=True)
-
-#     #Gráfico do número de pessoas por gênero
-#     st.divider()
-#     st.subheader("Número de pessoas por gênero")
-#     st.bar_chart(gender_counts['counts'], x_label="Gêneros",y_label="Quantidade")
+    st.altair_chart(chart, use_container_width=True)
 
 # def exibir_agrupamento_geracao(data):
 
@@ -206,6 +205,7 @@ def top_5_cidades_vendas(data):
 
 #     st.plotly_chart(fig_grouped_age)
 
+
 # def histograma_geral_generos(data):
 
 #     """
@@ -261,5 +261,6 @@ if "dataset" in st.session_state:
     mostrar_dados(st.session_state["dataset"])
 
     top_5_cidades_vendas(st.session_state["dataset"])
+    mostrar_vendas_por_genero(st.session_state["dataset"])
 
    
