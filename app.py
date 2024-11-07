@@ -18,23 +18,25 @@ st.set_page_config(page_title="Equipe Rocket", page_icon="👁")
 #Top 5 Filiais valor de venda, Top Cidades, Top 10 clientes, Top 10 categorias
 st.title('Equipe Rocket')
 df_mercado = pd.read_csv("supermarket_sales.csv", sep=";", decimal=",", encoding="ISO-8859-1")
-
+#df_mercado = pd.read_csv("supermarket_sales.csv", sep=";", encoding="utf-8", decimal=",")
+#df_mercado = pd.read_csv("supermarket_sales.csv", sep=";", encoding="latin1", decimal=",")
+#df_mercado = pd.read_csv("supermarket_sales.csv", sep=";", encoding="ISO-8859-1", decimal=",")
 
 
 def mostrar_dados(data):
    
     df_mercado = pd.read_csv("supermarket_sales.csv", sep=";")
-    return df_mercado.set_index("City")
+    return df_mercado.set_index("Cidade")
 
 try:
     df_mercado = mostrar_dados(df_mercado)
-    City = st.multiselect(
-        "Selecione Cidade", list(df_mercado.index), ["Yangon","Naypyitaw","Mandalay"]
+    Cidade = st.multiselect(
+        "Selecione Cidade", list(df_mercado.index), ["São Paulo","Guarulhos","São Bernado do Campo"]
     )
-    if not City:
+    if not Cidade:
         st.error("Por favor selecione a cidade.")
     else:
-        data = df_mercado.loc[City]       
+        data = df_mercado.loc[Cidade]       
         st.write("### Dados ", data.sort_index())
 
         data = data.T.reset_index()
@@ -56,7 +58,7 @@ def top_5_cidades_vendas(data):
     df_mercado['Total'] = pd.to_numeric(df_mercado['Total'], errors='coerce')
 
     # Agrupando os dados por cidade e somando as vendas
-    vendas_por_cidade = df_mercado.groupby('City')['Total'].sum().reset_index()
+    vendas_por_cidade = df_mercado.groupby('Cidade')['Total'].sum().reset_index()
     
     # Ordenando e selecionando as top 5 cidades
     top_cidades = vendas_por_cidade.sort_values(by='Total', ascending=False).head(5)
@@ -73,9 +75,9 @@ def top_5_cidades_vendas(data):
         alt.Chart(top_cidades)
         .mark_bar()
         .encode(
-            x=alt.X('City', sort='-y', title='Cidade'),
+            x=alt.X('Cidade', sort='-y', title='Cidade'),
             y=alt.Y('Total', title='Total de Vendas (R$)'),
-            tooltip=['City', 'Total']
+            tooltip=['Cidade', 'Total']
         )
         .properties(width=600, height=400)
     )
@@ -86,17 +88,17 @@ def top_5_cidades_vendas(data):
 def mostrar_vendas_por_genero(data):
    
     # Convertendo os gêneros para minúsculas
-    data['Gender'] = data['Gender'].str.lower()
+    data['Genero'] = data['Genero'].str.lower()
 
     # Garantindo que 'Total' é numérico e corrigindo formato com replace
     data['Total'] = data['Total'].str.replace('.', '', regex=False).str.replace(',', '.', regex=False).astype(float)
     data['Total'] = pd.to_numeric(data['Total'], errors='coerce')
     #data['Total'] = data['Total'].apply(lambda x: f'R$ {x:,.2f}')
     # Gerando dataset de agrupamento de gênero com a soma das vendas
-    gender_sales = data.groupby('Gender')['Total'].sum().reset_index()
+    gender_sales = data.groupby('Genero')['Total'].sum().reset_index()
 
     # Definindo as cores
-    color_map = alt.Scale(domain=['male', 'female'],
+    color_map = alt.Scale(domain=['Masculino', 'Feminino'],
                           range=['blue', 'red'])
 
     # Gráfico do total de vendas por gênero usando Altair
@@ -104,16 +106,17 @@ def mostrar_vendas_por_genero(data):
     st.subheader("Total de Vendas por Gênero")
 
     chart = alt.Chart(gender_sales).mark_bar().encode(
-        x='Gender',
-        y=alt.Y('Total'),
+        x=alt.X('Genero:N', title='Gênero'),  # Adicionando título no eixo x
+        y=alt.Y('Total', title='Total de Vendas'),  # Título para o eixo y
         color=alt.condition(
-            alt.datum.Gender == 'male',  # Se gênero for 'male'
-            alt.value('blue'),            # Cor azul
-            alt.value('red')              # Senão, vermelho
+            alt.datum.Genero == 'masculino',  # Se gênero for 'masculino'
+            alt.value('blue'),               # Cor azul
+            alt.value('red')                 # Senão, vermelho
         )
     ).properties()
 
     st.altair_chart(chart, use_container_width=True)
+
 
 # def exibir_agrupamento_geracao(data):
 
