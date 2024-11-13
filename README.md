@@ -25,7 +25,7 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 - **Streamlit**
 - **Pandas**
 
-# Benefícios a Serem Gerados com a Solução
+# Benefícios Gerados com a Solução
 - **Identificação de novas oportunidades**: Ao analisar os dados de vendas de forma detalhada, será possível identificar produtos, categorias, clientes e filiais com maior potencial de crescimento, permitindo direcionar as ações de marketing e vendas de forma mais eficiente.
 - **Otimização de estoque**: A análise dos dados permitirá identificar quais produtos têm maior saída e quais possuem menor giro, otimizando o estoque e evitando perdas por obsolescência.
 - **Melhoria da experiência do cliente**: Com o conhecimento dos produtos e categorias mais procurados pelos clientes, será possível personalizar as ofertas e promoções, aumentando a satisfação dos clientes e fidelizando-os.
