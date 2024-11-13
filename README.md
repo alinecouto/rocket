@@ -15,9 +15,9 @@ A equipe Rocket foi contratada como consultoria externa para realizar uma análi
 Aumentar as vendas de produtos nas filiais por meio de análises de dados detalhadas.
 
 ## Visualizações Pretendidas
-- Top 5 filiais por valor de venda
-- Top cidades
-- Top 10 clientes
+- Top 5 Filiais por valor de venda
+- Top 5 Cidades
+- Top 10 Clientes
 - Top 10 categorias
 - Média de valores dos produtos
 
@@ -26,7 +26,10 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 - **Pandas**
 
 ## Benefícios a Serem Gerados com a Solução
-[Inserir benefícios a serem gerados]
+- Identificação de novas oportunidades: Ao analisar os dados de vendas de forma detalhada, será possível identificar produtos, categorias, clientes e filiais com maior potencial de crescimento, permitindo direcionar as ações de marketing e vendas de forma mais eficiente.
+- Otimização de estoque: A análise dos dados permitirá identificar quais produtos têm maior saída e quais possuem menor giro, otimizando o estoque e evitando perdas por obsolescência.
+- Melhoria da experiência do cliente: Com o conhecimento dos produtos e categorias mais procurados pelos clientes, será possível personalizar as ofertas e promoções, aumentando a satisfação dos clientes e fidelizando-os.
+- Tomada de decisão estratégica: As informações obtidas através da análise permitirão aos gestores tomar decisões mais assertivas sobre investimentos, expansão, e desenvolvimento de novos produtos.
 
 ## PDoc
 Utilização da biblioteca PDoc para gerar documentação automática do projeto e disponibilizá-la no GitHub Pages.
