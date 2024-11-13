@@ -8,30 +8,30 @@
 
 **Fonte de Dados:**  (Formato: CSV)
 
-## Contextualização
+# Contextualização
 A equipe Rocket foi contratada como consultoria externa para realizar uma análise de vendas e identificar oportunidades de crescimento nas filiais de um supermercado.
 
-## Objetivo
+# Objetivo
 Aumentar as vendas de produtos nas filiais por meio de análises de dados detalhadas.
 
-## Visualizações Pretendidas
+# Visualizações Pretendidas
 - Top 5 Filiais por valor de venda
 - Top 5 Cidades
 - Top 10 Clientes
 - Top 10 categorias
 - Média de valores dos produtos
 
-## Bibliotecas e Frameworks Utilizados
+# Bibliotecas e Frameworks Utilizados
 - **Streamlit**
 - **Pandas**
 
-## Benefícios a Serem Gerados com a Solução
-- Identificação de novas oportunidades: Ao analisar os dados de vendas de forma detalhada, será possível identificar produtos, categorias, clientes e filiais com maior potencial de crescimento, permitindo direcionar as ações de marketing e vendas de forma mais eficiente.
-- Otimização de estoque: A análise dos dados permitirá identificar quais produtos têm maior saída e quais possuem menor giro, otimizando o estoque e evitando perdas por obsolescência.
-- Melhoria da experiência do cliente: Com o conhecimento dos produtos e categorias mais procurados pelos clientes, será possível personalizar as ofertas e promoções, aumentando a satisfação dos clientes e fidelizando-os.
-- Tomada de decisão estratégica: As informações obtidas através da análise permitirão aos gestores tomar decisões mais assertivas sobre investimentos, expansão, e desenvolvimento de novos produtos.
+# Benefícios a Serem Gerados com a Solução
+- **Identificação de novas oportunidades**: Ao analisar os dados de vendas de forma detalhada, será possível identificar produtos, categorias, clientes e filiais com maior potencial de crescimento, permitindo direcionar as ações de marketing e vendas de forma mais eficiente.
+- **Otimização de estoque**: A análise dos dados permitirá identificar quais produtos têm maior saída e quais possuem menor giro, otimizando o estoque e evitando perdas por obsolescência.
+- **Melhoria da experiência do cliente**: Com o conhecimento dos produtos e categorias mais procurados pelos clientes, será possível personalizar as ofertas e promoções, aumentando a satisfação dos clientes e fidelizando-os.
+- **Tomada de decisão estratégica**: As informações obtidas através da análise permitirão aos gestores tomar decisões mais assertivas sobre investimentos, expansão, e desenvolvimento de novos produtos.
 
-## PDoc
+# PDoc
 Utilização da biblioteca PDoc para gerar documentação automática do projeto e disponibilizá-la no GitHub Pages.
 
 ---
@@ -98,8 +98,13 @@ O projeto será pontuado de acordo com as metas alcançadas no desenvolvimento:
 
 ---
 
-## Observações Finais
+**Observações Finais**
 
 - As notas do projeto podem ser atribuídas individualmente, dependendo da situação e desempenho.
 - O desenvolvimento individual do projeto não será permitido. Trabalhar em equipe é mandatório.
 - Qualquer detecção de plágio resultará em reprovação na disciplina.
+
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
