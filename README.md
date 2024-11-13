@@ -8,6 +8,14 @@
 
 **Fonte de Dados:**  (Formato: CSV)
 
+** Grupo:**
+| Nomes              | RA |
+| -------------     | ---------- |
+| Aline Couto       | 10206399   |
+| Augusto           | xxxxxxxxx  |
+| Carolina Atili    | xxxxxxxxx  |
+| Daniela           | xxxxxxxxx  |
+
 # Contextualização
 A equipe Rocket foi contratada como consultoria externa para realizar uma análise de vendas e identificar oportunidades de crescimento nas filiais de um supermercado.
 
