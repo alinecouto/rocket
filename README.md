@@ -39,11 +39,11 @@ Utilização da biblioteca PDoc para gerar documentação automática do projeto
 ## Plano de Trabalho
 
 ### Sprint 1 (30/10 a 06/11)
-[ ] Criar repositório - Aline
-[ ] Download do dataset - Dani
-[ ] Subir dataset no repositório
-[ ] Configuração do Streamlit
-[ ] Início do desenvolvimento
+- [ ] Criar repositório - Aline
+- [ ] Download do dataset - Dani
+- [ ] Subir dataset no repositório
+- [ ] Configuração do Streamlit
+- [ ] Início do desenvolvimento
 
 ### Sprint 2 (07/11 a 13/11)
 - [ ] Desenvolvimento
