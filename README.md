@@ -8,7 +8,7 @@
 
 **Fonte de Dados:**  (Formato: CSV)
 
-** Grupo:**
+**Grupo:**
 | Nomes              | RA |
 | -------------     | ---------- |
 | Aline Couto       | 10206399   |
