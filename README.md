@@ -36,7 +36,7 @@ Utilização da biblioteca PDoc para gerar documentação automática do projeto
 
 ---
 
-## Plano de Trabalho
+# Plano de Trabalho
 
 ### Sprint 1 (30/10 a 06/11)
 - [ ] Criar repositório - Aline
@@ -83,7 +83,7 @@ No fechamento da Sprint 3, o projeto deve ser apresentado em aula, abordando:
 
 ---
 
-## Critérios de Avaliação
+# Critérios de Avaliação
 
 O projeto será pontuado de acordo com as metas alcançadas no desenvolvimento:
 
