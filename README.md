@@ -1,4 +1,4 @@
-# Equipe Rocket :rocket:
+# :rocket: Equipe Rocket :rocket:
 
 **[Reunião Google Meet](https://meet.google.com/uwh-robp-vcz)**
 
