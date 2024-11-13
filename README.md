@@ -1,8 +1,8 @@
 # Equipe Rocket
 
-**Reunião Meet 11-24:** [https://meet.google.com/uwh-robp-vcz]
+**[Reunião Meet]:** (https://meet.google.com/uwh-robp-vcz)
 
-**Endereço do repositório do projeto:** [https://github.com/alinecouto/rocket.git]
+**[Endereço do repositório do projeto]:** (https://github.com/alinecouto/rocket.git)
 
 **Tema do Projeto:** Supermarket Sales
 
