@@ -1,6 +1,6 @@
 # Equipe Rocket
 
-**Reunião Meet 06-11-24:** https://meet.google.com/uwh-robp-vcz
+**Reunião Meet 11-24:** [(https://meet.google.com/uwh-robp-vcz)]
 
 **Endereço do repositório do projeto:** [(https://github.com/alinecouto/rocket.git)]
 
