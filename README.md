@@ -47,7 +47,7 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 # Plano de Trabalho do time
 
 ### Sprint 1 (30/10 a 06/11)
-- [ X ] Criar repositório 
+- [X] Criar repositório 
 - [ ] Download do dataset
 - [ ] Subir dataset no repositório
 - [ ] Configuração do Streamlit
