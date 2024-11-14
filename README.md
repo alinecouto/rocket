@@ -48,13 +48,15 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 
 ### Sprint 1 (30/10 a 06/11)
 - [X] Criar repositório 
-- [ ] Download do dataset
-- [ ] Subir dataset no repositório
-- [ ] Configuração do Streamlit
-- [ ] Início do desenvolvimento
+- [X] Download do dataset
+- [X] Subir dataset no repositório
+- [X] Configuração do Streamlit
+- [X] Início do desenvolvimento
 
 ### Sprint 2 (07/11 a 13/11)
-- [ ] Desenvolvimento
+- [X] Desenvolvimento
+- [X] Ajustes nas visões
+- [X] Geração das visões- gráficos
 
 ### Sprint 3 (14/11 a 20/11)
 - [ ] Ajustes finais
