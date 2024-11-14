@@ -23,10 +23,10 @@ A equipe Rocket foi contratada como consultoria externa para realizar uma análi
 Aumentar as vendas de produtos nas filiais por meio de análises de dados detalhadas.
 
 # Visualizações Propostas
-- _Top 5 Filiais por valor de venda_
-- _Top 5 Cidades_
-- _Top 10 Clientes_
-- _Top 10 categorias_
+- _Ranking de Filiais por valor de venda_
+- _Ranking de Cidades_
+- _Ranking de Clientes_
+- _Ranking de Categorias_
 - _Média de valores dos produtos_
 
 # Bibliotecas e Frameworks Utilizados
