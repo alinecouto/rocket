@@ -1,56 +1,69 @@
-# Equipe Rocket
+# :rocket: Equipe Rocket :rocket:
 
-**Endereço do repositório do projeto:** [(https://github.com/alinecouto/rocket.git)]
+**[Reunião Google Meet](https://meet.google.com/uwh-robp-vcz)**
+
+**[Repositório do projeto](https://github.com/alinecouto/rocket.git)**
 
 **Tema do Projeto:** Supermarket Sales
 
 **Fonte de Dados:**  (Formato: CSV)
 
-## Contextualização
+**Grupo:**
+| Nome               | RA |
+| -------------      | ---------- |
+| Aline Couto        | 10206399   |
+| Augusto Batista    | xxxxxxxxx  |
+| Carolina Attili    | xxxxxxxxx  |
+| Daniela Alexandra  | 10444894  |
+
+# Contextualização
 A equipe Rocket foi contratada como consultoria externa para realizar uma análise de vendas e identificar oportunidades de crescimento nas filiais de um supermercado.
 
-## Objetivo
+# Objetivo
 Aumentar as vendas de produtos nas filiais por meio de análises de dados detalhadas.
 
-## Visualizações Pretendidas
-- Top 5 filiais por valor de venda
-- Top cidades
-- Top 10 clientes
-- Top 10 categorias
-- Média de valores dos produtos
+# Visualizações Propostas
+- _Ranking de Filiais por valor de venda_
+- _Ranking de Cidades_
+- _Ranking de Clientes_
+- _Ranking de Categorias_
+- _Média de valores dos produtos_
 
-## Bibliotecas e Frameworks Utilizados
+# Bibliotecas e Frameworks Utilizados
 - **Streamlit**
 - **Pandas**
+- **PDoc** Biblioteca para gerar documentação automática do projeto e disponibilizá-la no GitHub Pages.
 
-## Benefícios a Serem Gerados com a Solução
-[Inserir benefícios a serem gerados]
+# Benefícios Gerados com a Solução
+- **Identificação de novas oportunidades**: Ao analisar os dados de vendas de forma detalhada, será possível identificar produtos, categorias, clientes e filiais com maior potencial de crescimento, permitindo direcionar as ações de marketing e vendas de forma mais eficiente.
+- **Otimização de estoque**: A análise dos dados permitirá identificar quais produtos têm maior saída e quais possuem menor giro, otimizando o estoque e evitando perdas por obsolescência.
+- **Melhoria da experiência do cliente**: Com o conhecimento dos produtos e categorias mais procurados pelos clientes, será possível personalizar as ofertas e promoções, aumentando a satisfação dos clientes e fidelizando-os.
+- **Tomada de decisão estratégica**: As informações obtidas através da análise permitirão aos gestores tomar decisões mais assertivas sobre investimentos, expansão, e desenvolvimento de novos produtos.
 
-## PDoc
-Utilização da biblioteca PDoc para gerar documentação automática do projeto e disponibilizá-la no GitHub Pages.
+
 
 ---
 
-## Plano de Trabalho
+# Plano de Trabalho do time
 
 ### Sprint 1 (30/10 a 06/11)
-1. Criar repositório - Aline
-2. Download do dataset - Dani
-3. Subir dataset no repositório
-4. Configuração do Streamlit
-5. Início do desenvolvimento
+- [X] Criar repositório 
+- [X] Download do dataset
+- [X] Subir dataset no repositório
+- [X] Configuração do Streamlit
+- [X] Início do desenvolvimento
 
 ### Sprint 2 (07/11 a 13/11)
-1. Desenvolvimento
+- [X] Desenvolvimento
+- [X] Ajustes nas visões
+- [X] Geração das visões- gráficos
 
 ### Sprint 3 (14/11 a 20/11)
-1. Ajustes finais
-2. Documentação
-3. Apresentação final
+- [ ] Ajustes finais
+- [ ] Documentação
+- [ ] Apresentação final
 
----
-
-## Cadastro de Tarefas
+## Cadastro de Tarefas- Issues
 
 Para cada Sprint, as atividades do projeto devem ser distribuídas entre todos os participantes do grupo. As tarefas devem ser cadastradas no repositório GitHub na aba **Issues**. Cada Issue deve contemplar uma tarefa que deve ser atribuída a um ou mais membros da equipe e rotulada pela Sprint correspondente.
 
@@ -78,7 +91,7 @@ No fechamento da Sprint 3, o projeto deve ser apresentado em aula, abordando:
 
 ---
 
-## Critérios de Avaliação
+# Critérios para Avaliação
 
 O projeto será pontuado de acordo com as metas alcançadas no desenvolvimento:
 
@@ -93,8 +106,17 @@ O projeto será pontuado de acordo com as metas alcançadas no desenvolvimento:
 
 ---
 
-## Observações Finais
+**Observações Finais**
 
 - As notas do projeto podem ser atribuídas individualmente, dependendo da situação e desempenho.
 - O desenvolvimento individual do projeto não será permitido. Trabalhar em equipe é mandatório.
 - Qualquer detecção de plágio resultará em reprovação na disciplina.
+
+
+
+
+
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
