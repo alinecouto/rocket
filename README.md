@@ -14,7 +14,7 @@
 | Aline Couto        | 10206399   |
 | Augusto Batista    | xxxxxxxxx  |
 | Carolina Attili    | xxxxxxxxx  |
-| Daniela Alexandra  | xxxxxxxxx  |
+| Daniela Alexandra  | 10444894  |
 
 # Contextualização
 A equipe Rocket foi contratada como consultoria externa para realizar uma análise de vendas e identificar oportunidades de crescimento nas filiais de um supermercado.
