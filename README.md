@@ -12,7 +12,7 @@
 | Nome               | RA |
 | -------------      | ---------- |
 | Aline Couto        | 10206399   |
-| Augusto Batista    | xxxxxxxxx  |
+| Augusto Batista    | 10444612   |
 | Carolina Attili    | xxxxxxxxx  |
 | Daniela Alexandra  | 10444894  |
 
