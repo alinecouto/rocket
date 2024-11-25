@@ -96,6 +96,8 @@ python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
 python-time==0.3.0
 pyzmq==26.2.0
+PuLP==2.9.0
+pure_eval==0.2.3
 referencing==0.35.1
 requests==2.32.3
 rfc3339-validator==0.1.4
