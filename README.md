@@ -67,29 +67,11 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 
 ## Cadastro de Tarefas- Issues
 
-Para cada Sprint, as atividades do projeto devem ser distribuídas entre todos os participantes do grupo. As tarefas devem ser cadastradas no repositório GitHub na aba **Issues**. Cada Issue deve contemplar uma tarefa que deve ser atribuída a um ou mais membros da equipe e rotulada pela Sprint correspondente.
-
 ## Execução do Projeto
 
-Durante a execução do projeto, é necessário que o grupo:
-
-- Fique atento à realização das tarefas e cumpra as contribuições estabelecidas nos issues.
-- Todas as contribuições são registradas, e o desempenho de cada integrante é monitorado nos insights do repositório.
-
 ### Fechamento da Sprint
-Ao final de cada Sprint, o professor se reunirá com a equipe para:
-
-1. Apresentar todas as tarefas da Sprint.
-2. Justificar tarefas não concluídas ou não executadas.
-3. Planejar a próxima Sprint, reajustando as tarefas conforme necessário.
-4. Realizar uma retrospectiva do projeto, apresentando as metas alcançadas, dificuldades encontradas e replanejamentos. Essas informações devem ser publicadas no Wiki do repositório GitHub.
 
 ## Apresentação Final do Projeto
-
-No fechamento da Sprint 3, o projeto deve ser apresentado em aula, abordando:
-
-- O escopo do projeto e o desenvolvimento nas Sprints.
-- A solução desenvolvida (publicada na nuvem) e o repositório GitHub com todos os ativos produzidos.
 
 ---
 
@@ -107,14 +89,6 @@ O projeto será pontuado de acordo com as metas alcançadas no desenvolvimento:
 - Geração da documentação com Pdoc e publicação no GitHub Pages: 0,0 a 1,0 pontos
 
 ---
-
-**Observações Finais**
-
-- As notas do projeto podem ser atribuídas individualmente, dependendo da situação e desempenho.
-- O desenvolvimento individual do projeto não será permitido. Trabalhar em equipe é mandatório.
-- Qualquer detecção de plágio resultará em reprovação na disciplina.
-
-
 
 
 
