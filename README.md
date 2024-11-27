@@ -1,6 +1,6 @@
 # :rocket: Equipe Rocket :rocket:
 
-**Links úteis:**
+**- Links úteis:**
 
 **[Reunião Google Meet](https://meet.google.com/uwh-robp-vcz)**
 
