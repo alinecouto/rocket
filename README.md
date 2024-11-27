@@ -6,11 +6,11 @@
 
 **[Repositório do projeto](https://github.com/alinecouto/rocket.git)**
 
-**Tema do Projeto:** Supermarket Sales
+**- Tema do Projeto:** Supermarket Sales
 
-**Fonte de Dados:**  (Formato: CSV)
+**- Fonte de Dados:**  (Formato: CSV)
 
-**Grupo:**
+**- Grupo:**
 | Nome               | RA |
 | -------------      | ---------- |
 | Aline Couto        | 10206399   |
