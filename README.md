@@ -65,28 +65,6 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 - [ ] Documentação
 - [ ] Apresentação final
 
-## Cadastro de Tarefas- Issues
-
-## Execução do Projeto
-
-### Fechamento da Sprint
-
-## Apresentação Final do Projeto
-
----
-
-# Critérios para Avaliação
-
-O projeto será pontuado de acordo com as metas alcançadas no desenvolvimento:
-
-- Repositório GitHub mantido conforme orientações: 0,0 a 2,0 pontos
-- Tarefas executadas conforme o planejamento (ou replanejamento): 0,0 a 2,0 pontos
-- Colaboração entre todos os membros da equipe: 0,0 a 1,0 pontos
-- Utilização adequada da fonte de dados com a biblioteca Pandas: 0,0 a 1,0 pontos
-- Elaboração das visualizações com Streamlit: 0,0 a 1,0 pontos
-- Publicação do projeto na nuvem: 0,0 a 1,0 pontos
-- Estruturação do projeto em funções: 0,0 a 1,0 pontos
-- Geração da documentação com Pdoc e publicação no GitHub Pages: 0,0 a 1,0 pontos
 
 ---
 
