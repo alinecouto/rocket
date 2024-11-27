@@ -34,7 +34,7 @@ Aumentar as vendas de produtos nas filiais por meio de análises de dados detalh
 # Bibliotecas e Frameworks Utilizados
 - **Streamlit**
 - **Pandas**
-- **PDoc** Biblioteca para gerar documentação automática do projeto e disponibilizá-la no GitHub Pages.
+- **PDoc** 
 
 # Benefícios Gerados com a Solução
 - **Identificação de novas oportunidades**: Ao analisar os dados de vendas de forma detalhada, será possível identificar produtos, categorias, clientes e filiais com maior potencial de crescimento, permitindo direcionar as ações de marketing e vendas de forma mais eficiente.
